@@ -1,4 +1,4 @@
-python3.9 -m pip install tensorflow 
+pip install tensorflow 
 
 import streamlit as st
 import tensorflow as tf
