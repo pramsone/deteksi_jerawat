@@ -77,7 +77,7 @@ if uploaded_image is not None:
     acne_confidence = acne_prediction[0][acne_index]
     
     # Display acne prediction and confidence score
-    st.image(image, caption='Nama Gambar', use_column_width=True)
+    st.image(image, caption='Gambar Jerawat', use_column_width=True)
     st.subheader("Prediksi Jerawat")
     st.write("Kelas Jerawat:", acne_class)
     st.write("Skor Kepercayaan Jerawat:", acne_confidence)
